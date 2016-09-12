@@ -1,0 +1,11 @@
+{
+  "name": "resume",
+  "private": true,
+  "scripts": {
+    "print": "node print.js"
+  },
+  "devDependencies": {
+    "chrome-launcher": "^0.15.0",
+    "chrome-remote-interface": "^0.31.2"
+  }
+}

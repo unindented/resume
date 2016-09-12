@@ -1,0 +1,150 @@
+Daniel Perez Alvarez
+
+
+  Software engineer with a focus on front-end web development.
+  Experienced in starting projects from scratch, as well as maintaining
+  large legacy codebases.
+
+  -   [Phone] (+1) 206 698 6781
+  -   [Email] unindented@gmail.com
+  -   [Website] unindented.org
+  -   [GitHub] @unindented
+  -   [Twitter] @unindented
+
+------------------------------------------------------------------------
+
+Experience
+
+Apr 2021 – Present
+
+    Staff Software Engineer at Twitter (Seattle, WA)
+
+    I led the web implementation of Super Follows, a paid monthly
+    subscription that offers access to exclusive content from eligible
+    creators.
+
+    -   Developed the application, onboarding, and management flows that
+        allowed users to become Super Follows creators, and manage their
+        offerings, using Flow, React, Relay, and GraphQL.
+    -   Developed the subscription payment flow, backed by Stripe.
+    -   Onboarded and mentored three other web engineers on the team.
+    -   Contributed to the wider Twitter web community by educating
+        other engineers on Relay, leading postmortems, improving and
+        rewriting unit tests using React Testing Library, and helping
+        with accessibility audits, among other things.
+
+Dec 2018 – Apr 2021
+
+    Principal Software Engineer at Microsoft (Redmond, WA)
+
+    I led the rewrite of Yammer’s web client (a.k.a. New Yammer), using
+    TypeScript, React, Redux, and GraphQL.
+
+    -   The visual refresh, coupled with new features and integrations
+        that addressed top customer needs, garnered a lot of positive
+        press, and boosted engagement metrics.
+    -   Scaled the codebase to 30+ engineers with different skill
+        levels.
+    -   Maintained quality through tooling, using Jest, ESLint, and
+        Puppeteer.
+
+Feb 2017 – Dec 2018
+
+    Senior Software Engineer at Microsoft (Redmond, WA)
+
+    I relocated to Microsoft’s offices in Redmond, but kept working on
+    Yammer’s main web client.
+
+    -   Worked on migrating the codebase from legacy technologies like
+        jQuery and Backbone, to React and Redux, in order to improve
+        developer productivity and happiness.
+    -   Developed Yammer’s desktop client from scratch, using Electron
+        and TypeScript.
+    -   Pitched a rewrite of Yammer’s web client, with documents
+        explaining the new architecture and the general plan we’d
+        follow. Senior leadership accepted the proposal, and staffed it
+        with me as lead engineer.
+
+Oct 2012 – Feb 2017
+
+    Senior Software Development Engineer at Microsoft (London, UK)
+
+    After the acquisition by Microsoft, I kept working on Yammer’s main
+    web client, developing features and improving the maintainability of
+    the ~220KLOC front-end codebase.
+
+    -   Helped introduce peer-reviewed pull requests into the workflow,
+        improving communication among developers, and progressively
+        reducing technical debt.
+    -   Migrated a four-thousand-line custom build process to Webpack,
+        reducing maintenance costs, and allowing for the introduction of
+        productivity-enhancing tools like TypeScript.
+    -   Prototyped a desktop client that wrapped the original web
+        client, using Electron.
+    -   Prototyped an alternative web client, using React and Redux.
+    -   Prototyped alternative iOS and Android clients that shared 90%
+        of their code, using React Native.
+    -   Gave internal talks on various topics, including React, Redux
+        and Webpack.
+
+Jul 2012 – Oct 2012
+
+    Software Development Engineer II at Yammer (London, UK)
+
+    Yammer is an enterprise social network. As an early hire for their
+    London offices, I worked on the development of Yammer’s main web
+    client, a single-page app built on top of a Ruby on Rails
+    application.
+
+    -   Led the development of key features, collaborating with product
+        managers, designers, front-end and back-end engineers, and data
+        analysts.
+    -   Shipped projects and measured their impact on user engagement
+        and other metrics, making heavy use of feature flags and A/B
+        testing.
+    -   Started the migration from an undocumented and untested internal
+        MVC framework to Backbone, speeding up development, and making
+        onboarding of new hires much easier.
+    -   Improved the quality and consistency of the front-end codebase
+        through linting (JSHint) and unit testing (Jasmine).
+
+Dec 2011 – Jun 2012
+
+    Software Developer (Freelance) at Avallain (Madrid, Spain)
+
+    Avallain is a Swiss company that focuses on education technology and
+    digital publishing. I worked remotely with their engineering team on
+    the creation of an ambitious online learning platform.
+
+Mar 2011 – Dec 2011
+
+    Software Developer (Freelance) at EMC (Madrid, Spain)
+
+    EMC is a multinational corporation that provides data storage,
+    information security, virtualization, analytics and cloud computing
+    solutions. I worked with their engineering team on various projects.
+
+Mar 2008 – Mar 2011
+
+    Analyst Programmer at Atos (Madrid, Spain)
+
+    Atos is a European IT services corporation. I was part of their
+    consulting team, working on document management solutions.
+
+Sep 2006 – Mar 2008
+
+    Analyst Programmer at CSC (Madrid, Spain)
+
+    CSC is a multinational corporation that provides IT services and
+    professional services. I was part of their consulting team, working
+    on document management solutions.
+
+Education
+
+Sep 2001 – Sep 2006
+
+    M.Sc. in Computer Science at U. Pontificia de Comillas
+    (Madrid, Spain)
+
+    My final year project applied neuro-evolution of augmenting
+    topologies to videogames (more specifically to Half-Life 2).
