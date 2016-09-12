@@ -1,0 +1,139 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  max-width: 800px;
+  padding: 10px;
+  margin: auto;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+  background: #fff;
+}
+
+h1 {
+  color: #777;
+  text-align: center;
+}
+
+h2 {
+  color: #777;
+}
+h2:before {
+  display: inline-block;
+  width: 20%;
+  height: 10px;
+  margin-right: 2%;
+  content: "";
+  background-color: #999;
+}
+
+blockquote {
+  text-align: center;
+}
+blockquote ol, blockquote ul {
+  padding: 0 15%;
+}
+blockquote li {
+  display: inline-block;
+  margin: 0 10px;
+}
+blockquote a {
+  text-decoration: none;
+}
+blockquote img {
+  width: 1rem;
+  height: 1rem;
+  vertical-align: middle;
+}
+
+dt {
+  float: left;
+  width: 20%;
+  clear: left;
+  font-weight: bold;
+  color: #777;
+  text-align: right;
+}
+dd {
+  margin-left: 22%;
+}
+
+ol, ul {
+  padding: 0;
+  margin: 0;
+}
+
+li, p {
+  margin: 0 0 6px 0;
+}
+
+code, em {
+  font-style: normal;
+  color: #777;
+}
+
+a {
+  font-style: italic;
+  color: #333;
+  text-decoration: underline;
+}
+em a {
+  font-style: normal;
+  font-weight: bold;
+}
+em a:hover,
+em a:focus {
+  text-decoration: underline;
+}
+
+hr {
+  height: 1px;
+  background: #eee;
+  border: 0;
+}
+
+/* CSS locks */
+h1 {
+  font-size: 1.5rem;
+  line-height: calc(120% + .2 * 1rem);
+}
+h2 {
+  font-size: 1rem;
+  line-height: calc(120% + .2 * 1rem);
+}
+dt, li, p {
+  font-size: .75rem;
+  line-height: 150%;
+}
+@media (min-width: 20em) {
+  h1 {
+    font-size: calc(1.5rem + 1 * (100vw - 20rem) / (60 - 20));
+    line-height: calc(120% + .2 * (100vw - 60rem) / (20 - 60));
+  }
+  h2 {
+    font-size: calc(1rem + .5 * (100vw - 20rem) / (60 - 20));
+    line-height: calc(120% + .2 * (100vw - 60rem) / (20 - 60));
+  }
+  dt, li, p {
+    font-size: calc(.75rem + .1875 * (100vw - 20rem) / (60 - 20));
+    line-height: calc(140% + .28125 * (100vw - 20rem) / (60 - 20));
+  }
+}
+@media (min-width: 60em) {
+  h1 {
+    font-size: calc(1.5rem + 1 * 1rem);
+    line-height: 120%;
+  }
+  h2 {
+    font-size: calc(1rem + .5 * 1rem);
+    line-height: 120%;
+  }
+  dt, li, p {
+    font-size: calc(.75rem + .1875 * 1rem);
+    line-height: calc(150% + .28125 * 1rem);
+  }
+}

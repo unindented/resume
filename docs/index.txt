@@ -1,0 +1,167 @@
+Daniel Perez Alvarez
+
+  Software engineer with a focus on frontend development. Experienced
+  both in starting projects from scratch, as well as maintaining large
+  legacy codebases.
+
+  -   [Phone] (+1) 206 698 6781
+  -   [Email] unindented@gmail.com
+  -   [Website] unindented.org
+  -   [GitHub] @unindented
+  -   [Twitter] @unindented
+
+------------------------------------------------------------------------
+
+Experience
+
+Dec 2018 – Present
+
+    Principal Software Engineer at Microsoft (Redmond, WA)
+
+    I’m currently leading the rewrite of Yammer’s web client, using
+    TypeScript, React, Redux, and GraphQL. Particularly focused on
+    maintaining quality through tooling, using Jest, ESLint, and
+    Puppeteer.
+
+    -   Working on reaching feature parity with the legacy web client.
+    -   Implementing new features to address top customer needs.
+    -   Scaling the codebase to 30+ engineers with different skill
+        levels.
+
+Feb 2017 – Dec 2018
+
+    Senior Software Engineer at Microsoft (Redmond, WA)
+
+    I relocated to Microsoft’s offices in Redmond, but kept working on
+    Yammer’s main web client.
+
+    -   Worked on migrating the codebase from legacy technologies like
+        jQuery and Backbone, to React and Redux, in order to improve
+        developer productivity and happiness.
+    -   Developed Yammer’s desktop client from scratch, using Electron
+        and TypeScript.
+    -   Pitched a rewrite of Yammer’s web client, with documents
+        explaining the new architecture and the general plan we’d
+        follow. Senior leadership accepted the proposal, and staffed it
+        with me as lead engineer.
+
+Oct 2012 – Feb 2017
+
+    Senior Software Development Engineer at Microsoft (London, UK)
+
+    After the acquisition by Microsoft, I kept working on Yammer’s main
+    web client, developing features and improving the maintainability of
+    the ~220KLOC front-end codebase.
+
+    -   Helped introduce peer-reviewed pull requests into the workflow,
+        improving communication among developers, and progressively
+        reducing technical debt.
+    -   Migrated a four-thousand-line custom build process to Webpack,
+        reducing maintenance costs, and allowing for the introduction of
+        productivity-enhancing tools like TypeScript.
+    -   Prototyped a desktop client that wrapped the original web
+        client, using Electron.
+    -   Prototyped an alternative web client, using React and Redux.
+    -   Prototyped alternative iOS and Android clients that shared 90%
+        of their code, using React Native.
+    -   Gave internal talks on various topics, including React, Redux
+        and Webpack.
+
+Jul 2012 – Oct 2012
+
+    Software Development Engineer II at Yammer (London, UK)
+
+    Yammer is an enterprise social network. As an early hire for their
+    London offices, I worked on the development of Yammer’s main web
+    client, a single-page app built on top of a Ruby on Rails
+    application.
+
+    -   Led the development of key features, collaborating with product
+        managers, designers, front-end and back-end engineers, and data
+        analysts.
+    -   Shipped projects and measured their impact on user engagement
+        and other metrics, making heavy use of feature flags and A/B
+        testing.
+    -   Started the migration from an undocumented and untested internal
+        MVC framework to Backbone, speeding up development, and making
+        onboarding of new hires much easier.
+    -   Improved the consistency of the front-end codebase by
+        introducing style guides and linting through JSHint, making it
+        easier to understand and grep, and raising potential errors
+        sooner in the development pipeline.
+    -   Helped push the Jasmine unit test count from less than a hundred
+        to over seven thousand.
+
+Dec 2011 – Jun 2012
+
+    Software Developer (Freelance) at Avallain (Madrid, Spain)
+
+    Avallain is a Swiss company that focuses on education technology and
+    digital publishing. I worked remotely with their engineering team on
+    the creation of an ambitious online learning platform.
+
+    -   Kickstarted the back-end, based on RefineryCMS / Ruby on Rails,
+        and reliant on Amazon Web Services like S3, SES, SQS and
+        SimpleDB.
+    -   Developed the front-end from start to finish, making heavy use
+        of Backbone and Bootstrap, following a test-driven workflow.
+
+Mar 2011 – Dec 2011
+
+    Software Developer (Freelance) at EMC (Madrid, Spain)
+
+    EMC is a multinational corporation that provides data storage,
+    information security, virtualization, analytics and cloud computing
+    solutions. I worked with their engineering team on various projects.
+
+    -   Reduced bulk-load and access times of hundreds of millions of
+        invoices stored in Documentum by ~50%, mainly through better XML
+        parsing, and database sharding.
+    -   Improved user experience in multiple web apps through
+        intelligent use of JavaScript.
+    -   Automated server management tasks, freeing engineers to work on
+        other issues.
+    -   Introduced the team to static analysis tools and unit testing.
+
+Mar 2008 – Mar 2011
+
+    Analyst Programmer at Atos (Madrid, Spain)
+
+    Atos is a European IT services corporation. I was part of their
+    consulting team, working on document management solutions.
+
+    -   Managed a team of three developers to build an electronic
+        registry for use in Spanish government agencies. We pioneered
+        the use of open-source solution Alfresco in the department.
+    -   Performed all kinds of customizations and improvements on both
+        the front-end and the back-end of Documentum Webtop and
+        Documentum Compliance Manager installations.
+    -   Introduced the team to source control, build tools, static
+        analysis tools and unit testing.
+
+Sep 2006 – Mar 2008
+
+    Analyst Programmer at CSC (Madrid, Spain)
+
+    CSC is a multinational corporation that provides IT services and
+    professional services. I was part of their consulting team, working
+    on document management solutions.
+
+    -   Collaborated directly with the customer to create several
+        intranet portals using Documentum Web Publisher. Made user
+        experience and accessibility top priorities.
+    -   Aided in the maintenance and improvement of a large Documentum
+        Webtop installation.
+    -   Introduced the team to source control, build tools, static
+        analysis tools and unit testing.
+
+Education
+
+Sep 2001 – Sep 2006
+
+    M.Sc. in Computer Science at U. Pontificia de Comillas
+    (Madrid, Spain)
+
+    My final year project consisted of applying neuro-evolution of
+    augmenting topologies to videogames (more specifically to Half-Life
+    2).
