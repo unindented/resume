@@ -23,8 +23,8 @@ $(HTML): $(MARKDOWN) $(STYLE) $(IMAGES)
 		$(MARKDOWN)
 
 $(PDF): $(HTML)
-	npm install
-	npm run print -- $(HTML) $(PDF)
+	pnpm install
+	pnpm print $(HTML) $(PDF)
 
 $(WORD): $(MARKDOWN) $(IMAGES)
 	pandoc \

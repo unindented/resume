@@ -1,12 +1,14 @@
-const fs = require("fs");
-const path = require("path");
-const url = require("url");
-const chromeLauncher = require("chrome-launcher");
-const chromeRemoteInterface = require("chrome-remote-interface");
+import * as fs from "node:fs";
+import * as path from "node:path";
+import * as url from "node:url";
+import * as chromeLauncher from "chrome-launcher";
+import chromeRemoteInterface from "chrome-remote-interface";
+
+const dirname = import.meta.dirname;
 
 const startChrome = () => {
   const options = {
-    chromeFlags: ["--disable-gpu", "--headless"]
+    chromeFlags: ["--disable-gpu", "--headless"],
   };
   return chromeLauncher.launch(options);
 };
@@ -30,11 +32,11 @@ const printToPDF = async ({ port, source, target }) => {
 
 (async () => {
   const source = url.format({
-    pathname: path.resolve(__dirname, process.argv[2]),
+    pathname: path.resolve(dirname, process.argv[2]),
     protocol: "file:",
-    slashes: true
+    slashes: true,
   });
-  const target = path.resolve(__dirname, process.argv[3]);
+  const target = path.resolve(dirname, process.argv[3]);
 
   let chrome;
 

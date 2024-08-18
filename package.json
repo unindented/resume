@@ -1,11 +1,13 @@
 {
   "name": "resume",
   "private": true,
+  "type": "module",
   "scripts": {
-    "print": "node print.js"
+    "print": "node print.mjs"
   },
   "devDependencies": {
-    "chrome-launcher": "^0.15.0",
-    "chrome-remote-interface": "^0.31.2"
-  }
+    "chrome-launcher": "^1.1.2",
+    "chrome-remote-interface": "^0.33.2"
+  },
+  "packageManager": "pnpm@9.7.1"
 }
