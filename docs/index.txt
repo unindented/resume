@@ -7,31 +7,43 @@ Daniel Perez Alvarez
 
   -   [Phone] (+1) 206 698 6781
   -   [Email] unindented@gmail.com
-  -   [Website] unindented.org
-  -   [GitHub] @unindented
-  -   [Twitter] @unindented
 
 ------------------------------------------------------------------------
 
 Experience
 
-Apr 2021 – Present
+Jan 2023 – Present
+
+    Senior Software Engineer II at Snowflake (Bellevue, WA)
+
+    I’ve worked on integrating Streamlit into Snowflake, and on building
+    Snowflake Notebooks, using TypeScript, React, and Redux.
+
+    -   Improved Streamlit’s viewing and sharing flows by simplifying
+        the access control model, which increased daily usage of the
+        product.
+    -   Added LLM-powered features to Worksheets’ and Notebooks’ editing
+        surfaces, focused on helping users understand and optimize SQL
+        queries.
+    -   Contributed to the wider Product Engineering organization,
+        improving the modularity and testability of the codebase.
+
+Apr 2021 – Jan 2023
 
     Staff Software Engineer at Twitter (Seattle, WA)
 
-    I led the web implementation of Super Follows, a paid monthly
-    subscription that offers access to exclusive content from eligible
-    creators.
+    I led the web implementation of Super Follows from ideation to
+    public preview, using Flow, React, Relay, and GraphQL
 
-    -   Developed the application, onboarding, and management flows that
-        allowed users to become Super Follows creators, and manage their
-        offerings, using Flow, React, Relay, and GraphQL.
-    -   Developed the subscription payment flow, backed by Stripe.
+    -   Developed from scratch the application, onboarding, and
+        management flows that allowed users to become Super Follows
+        creators, and manage their offerings.
+    -   Developed from scratch the subscription payment flow, backed by
+        Stripe.
     -   Onboarded and mentored three other web engineers on the team.
     -   Contributed to the wider Twitter web community by educating
-        other engineers on Relay, leading postmortems, improving and
-        rewriting unit tests using React Testing Library, and helping
-        with accessibility audits, among other things.
+        other engineers on Relay, improving and rewriting unit tests,
+        and helping with accessibility audits.
 
 Dec 2018 – Apr 2021
 
@@ -79,11 +91,8 @@ Oct 2012 – Feb 2017
     -   Migrated a four-thousand-line custom build process to Webpack,
         reducing maintenance costs, and allowing for the introduction of
         productivity-enhancing tools like TypeScript.
-    -   Prototyped a desktop client that wrapped the original web
-        client, using Electron.
-    -   Prototyped an alternative web client, using React and Redux.
-    -   Prototyped alternative iOS and Android clients that shared 90%
-        of their code, using React Native.
+    -   Prototyped an alternative web client, using React and Redux, and
+        a desktop client, using Electron.
     -   Gave internal talks on various topics, including React, Redux
         and Webpack.
 
@@ -93,8 +102,7 @@ Jul 2012 – Oct 2012
 
     Yammer is an enterprise social network. As an early hire for their
     London offices, I worked on the development of Yammer’s main web
-    client, a single-page app built on top of a Ruby on Rails
-    application.
+    client.
 
     -   Led the development of key features, collaborating with product
         managers, designers, front-end and back-end engineers, and data
@@ -105,46 +113,22 @@ Jul 2012 – Oct 2012
     -   Started the migration from an undocumented and untested internal
         MVC framework to Backbone, speeding up development, and making
         onboarding of new hires much easier.
-    -   Improved the quality and consistency of the front-end codebase
-        through linting (JSHint) and unit testing (Jasmine).
+    -   Improved the quality and consistency of the front-end codebase.
 
 Dec 2011 – Jun 2012
-
     Software Developer (Freelance) at Avallain (Madrid, Spain)
 
-    Avallain is a Swiss company that focuses on education technology and
-    digital publishing. I worked remotely with their engineering team on
-    the creation of an ambitious online learning platform.
-
 Mar 2011 – Dec 2011
-
     Software Developer (Freelance) at EMC (Madrid, Spain)
 
-    EMC is a multinational corporation that provides data storage,
-    information security, virtualization, analytics and cloud computing
-    solutions. I worked with their engineering team on various projects.
-
 Mar 2008 – Mar 2011
-
     Analyst Programmer at Atos (Madrid, Spain)
 
-    Atos is a European IT services corporation. I was part of their
-    consulting team, working on document management solutions.
-
 Sep 2006 – Mar 2008
-
     Analyst Programmer at CSC (Madrid, Spain)
-
-    CSC is a multinational corporation that provides IT services and
-    professional services. I was part of their consulting team, working
-    on document management solutions.
 
 Education
 
 Sep 2001 – Sep 2006
-
     M.Sc. in Computer Science at U. Pontificia de Comillas
     (Madrid, Spain)
-
-    My final year project applied neuro-evolution of augmenting
-    topologies to videogames (more specifically to Half-Life 2).

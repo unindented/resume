@@ -11,8 +11,10 @@ span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
 div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-ul.task-list{list-style: none;}
+
+ul.task-list[class]{list-style: none;}
 ul.task-list li input[type="checkbox"] {
+font-size: inherit;
 width: 0.8em;
 margin: 0 0.8em 0.2em -1.6em;
 vertical-align: middle;
@@ -336,9 +338,6 @@ line-height: calc(150% + .28125 * 1rem);
 }
 }
 </style>
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
 </head>
 <body>
 <header id="title-block-header">
@@ -349,35 +348,52 @@ line-height: calc(150% + .28125 * 1rem);
 Experienced in starting projects from scratch, as well as maintaining
 large legacy codebases.</p>
 <ul>
-<li><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTc5MiIgaGVpZ2h0PSIxNzkyIiB2aWV3Qm94PSIwIDAgMTc5MiAxNzkyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0xNjAwIDEyNDBxMCAyNy0xMCA3MC41dC0yMSA2OC41cS0yMSA1MC0xMjIgMTA2LTk0IDUxLTE4NiA1MS0yNyAwLTUyLjUtMy41dC01Ny41LTEyLjUtNDcuNS0xNC41LTU1LjUtMjAuNS00OS0xOHEtOTgtMzUtMTc1LTgzLTEyOC03OS0yNjQuNS0yMTUuNXQtMjE1LjUtMjY0LjVxLTQ4LTc3LTgzLTE3NS0zLTktMTgtNDl0LTIwLjUtNTUuNS0xNC41LTQ3LjUtMTIuNS01Ny41LTMuNS01Mi41cTAtOTIgNTEtMTg2IDU2LTEwMSAxMDYtMTIyIDI1LTExIDY4LjUtMjF0NzAuNS0xMHExNCAwIDIxIDMgMTggNiA1MyA3NiAxMSAxOSAzMCA1NHQzNSA2My41IDMxIDUzLjVxMyA0IDE3LjUgMjV0MjEuNSAzNS41IDcgMjguNXEwIDIwLTI4LjUgNTB0LTYyIDU1LTYyIDUzLTI4LjUgNDZxMCA5IDUgMjIuNXQ4LjUgMjAuNSAxNCAyNCAxMS41IDE5cTc2IDEzNyAxNzQgMjM1dDIzNSAxNzRxMiAxIDE5IDExLjV0MjQgMTQgMjAuNSA4LjUgMjIuNSA1cTE4IDAgNDYtMjguNXQ1My02MiA1NS02MiA1MC0yOC41cTE0IDAgMjguNSA3dDM1LjUgMjEuNSAyNSAxNy41cTI1IDE1IDUzLjUgMzF0NjMuNSAzNSA1NCAzMHE3MCAzNSA3NiA1MyAzIDcgMyAyMXoiLz48L3N2Zz4K" alt="Phone" /> <a href="tel:+12066986781">(+1) 206 698 6781</a></li>
-<li><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTc5MiIgaGVpZ2h0PSIxNzkyIiB2aWV3Qm94PSIwIDAgMTc5MiAxNzkyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0xNjY0IDE1MDR2LTc2OHEtMzIgMzYtNjkgNjYtMjY4IDIwNi00MjYgMzM4LTUxIDQzLTgzIDY3dC04Ni41IDQ4LjUtMTAyLjUgMjQuNWgtMnEtNDggMC0xMDIuNS0yNC41dC04Ni41LTQ4LjUtODMtNjdxLTE1OC0xMzItNDI2LTMzOC0zNy0zMC02OS02NnY3NjhxMCAxMyA5LjUgMjIuNXQyMi41IDkuNWgxNDcycTEzIDAgMjIuNS05LjV0OS41LTIyLjV6bTAtMTA1MXYtMjQuNWwtLjUtMTMtMy0xMi41LTUuNS05LTktNy41LTE0LTIuNWgtMTQ3MnEtMTMgMC0yMi41IDkuNXQtOS41IDIyLjVxMCAxNjggMTQ3IDI4NCAxOTMgMTUyIDQwMSAzMTcgNiA1IDM1IDI5LjV0NDYgMzcuNSA0NC41IDMxLjUgNTAuNSAyNy41IDQzIDloMnEyMCAwIDQzLTl0NTAuNS0yNy41IDQ0LjUtMzEuNSA0Ni0zNy41IDM1LTI5LjVxMjA4LTE2NSA0MDEtMzE3IDU0LTQzIDEwMC41LTExNS41dDQ2LjUtMTMxLjV6bTEyOC0zN3YxMDg4cTAgNjYtNDcgMTEzdC0xMTMgNDdoLTE0NzJxLTY2IDAtMTEzLTQ3dC00Ny0xMTN2LTEwODhxMC02NiA0Ny0xMTN0MTEzLTQ3aDE0NzJxNjYgMCAxMTMgNDd0NDcgMTEzeiIvPjwvc3ZnPgo=" alt="Email" /> <a href="mailto:unindented@gmail.com">unindented@gmail.com</a></li>
-<li><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTc5MiIgaGVpZ2h0PSIxNzkyIiB2aWV3Qm94PSIwIDAgMTc5MiAxNzkyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik04OTYgMTI4cTIwOSAwIDM4NS41IDEwM3QyNzkuNSAyNzkuNSAxMDMgMzg1LjUtMTAzIDM4NS41LTI3OS41IDI3OS41LTM4NS41IDEwMy0zODUuNS0xMDMtMjc5LjUtMjc5LjUtMTAzLTM4NS41IDEwMy0zODUuNSAyNzkuNS0yNzkuNSAzODUuNS0xMDN6bTI3NCA1MjFxLTIgMS05LjUgOS41dC0xMy41IDkuNXEyIDAgNC41LTV0NS0xMSAzLjUtN3E2LTcgMjItMTUgMTQtNiA1Mi0xMiAzNC04IDUxIDExLTItMiA5LjUtMTN0MTQuNS0xMnEzLTIgMTUtNC41dDE1LTcuNWwyLTIycS0xMiAxLTE3LjUtN3QtNi41LTIxcTAgMi02IDggMC03LTQuNS04dC0xMS41IDEtOSAxcS0xMC0zLTE1LTcuNXQtOC0xNi41LTQtMTVxLTItNS05LjUtMTAuNXQtOS41LTEwLjVxLTEtMi0yLjUtNS41dC0zLTYuNS00LTUuNS01LjUtMi41LTcgNS03LjUgMTAtNC41IDVxLTMtMi02LTEuNXQtNC41IDEtNC41IDMtNSAzLjVxLTMgMi04LjUgM3QtOC41IDJxMTUtNS0xLTExLTEwLTQtMTYtMyA5LTQgNy41LTEydC04LjUtMTRoNXEtMS00LTguNS04LjV0LTE3LjUtOC41LTEzLTZxLTgtNS0zNC05LjV0LTMzLS41cS01IDYtNC41IDEwLjV0NCAxNCAzLjUgMTIuNXExIDYtNS41IDEzdC02LjUgMTJxMCA3IDE0IDE1LjV0MTAgMjEuNXEtMyA4LTE2IDE2dC0xNiAxMnEtNSA4LTEuNSAxOC41dDEwLjUgMTYuNXEyIDIgMS41IDR0LTMuNSA0LjUtNS41IDQtNi41IDMuNWwtMyAycS0xMSA1LTIwLjUtNnQtMTMuNS0yNnEtNy0yNS0xNi0zMC0yMy04LTI5IDEtNS0xMy00MS0yNi0yNS05LTU4LTQgNi0xIDAtMTUtNy0xNS0xOS0xMiAzLTYgNC0xNy41dDEtMTMuNXEzLTEzIDEyLTIzIDEtMSA3LTguNXQ5LjUtMTMuNS41LTZxMzUgNCA1MC0xMSA1LTUgMTEuNS0xN3QxMC41LTE3cTktNiAxNC01LjV0MTQuNSA1LjUgMTQuNSA1cTE0IDEgMTUuNS0xMXQtNy41LTIwcTEyIDEgMy0xNy01LTctOC05LTEyLTQtMjcgNS04IDQgMiA4LTEtMS05LjUgMTAuNXQtMTYuNSAxNy41LTE2LTVxLTEtMS01LjUtMTMuNXQtOS41LTEzLjVxLTggMC0xNiAxNSAzLTgtMTEtMTV0LTI0LThxMTktMTItOC0yNy03LTQtMjAuNS01dC0xOS41IDRxLTUgNy01LjUgMTEuNXQ1IDggMTAuNSA1LjUgMTEuNSA0IDguNSAzcTE0IDEwIDggMTQtMiAxLTguNSAzLjV0LTExLjUgNC41LTYgNHEtMyA0IDAgMTR0LTIgMTRxLTUtNS05LTE3LjV0LTctMTYuNXE3IDktMjUgNmwtMTAtMXEtNCAwLTE2IDJ0LTIwLjUgMS0xMy41LThxLTQtOCAwLTIwIDEtNCA0LTItNC0zLTExLTkuNXQtMTAtOC41cS00NiAxNS05NCA0MSA2IDEgMTItMSA1LTIgMTMtNi41dDEwLTUuNXEzNC0xNCA0Mi03bDUtNXExNCAxNiAyMCAyNS03LTQtMzAtMS0yMCA2LTIyIDEyIDcgMTIgNSAxOC00LTMtMTEuNS0xMHQtMTQuNS0xMS0xNS01cS0xNiAwLTIyIDEtMTQ2IDgwLTIzNSAyMjIgNyA3IDEyIDggNCAxIDUgOXQyLjUgMTEgMTEuNS0zcTkgOCAzIDE5IDEtMSA0NCAyNyAxOSAxNyAyMSAyMSAzIDExLTEwIDE4LTEtMi05LTl0LTktNHEtMyA1IC41IDE4LjV0MTAuNSAxMi41cS03IDAtOS41IDE2dC0yLjUgMzUuNS0xIDIzLjVsMiAxcS0zIDEyIDUuNSAzNC41dDIxLjUgMTkuNXEtMTMgMyAyMCA0MyA2IDggOCA5IDMgMiAxMiA3LjV0MTUgMTAgMTAgMTAuNXE0IDUgMTAgMjIuNXQxNCAyMy41cS0yIDYgOS41IDIwdDEwLjUgMjNxLTEgMC0yLjUgMXQtMi41IDFxMyA3IDE1LjUgMTR0MTUuNSAxM3ExIDMgMiAxMHQzIDExIDggMnEyLTIwLTI0LTYyLTE1LTI1LTE3LTI5LTMtNS01LjUtMTUuNXQtNC41LTE0LjVxMiAwIDYgMS41dDguNSAzLjUgNy41IDQgMiAzcS0zIDcgMiAxNy41dDEyIDE4LjUgMTcgMTkgMTIgMTNxNiA2IDE0IDE5LjV0MCAxMy41cTkgMCAyMCAxMHQxNyAyMHE1IDggOCAyNnQ1IDI0cTIgNyA4LjUgMTMuNXQxMi41IDkuNWwxNiA4IDEzIDdxNSAyIDE4LjUgMTAuNXQyMS41IDExLjVxMTAgNCAxNiA0dDE0LjUtMi41IDEzLjUtMy41cTE1LTIgMjkgMTV0MjEgMjFxMzYgMTkgNTUgMTEtMiAxIC41IDcuNXQ4IDE1LjUgOSAxNC41IDUuNSA4LjVxNSA2IDE4IDE1dDE4IDE1cTYtNCA3LTktMyA4IDcgMjB0MTggMTBxMTQtMyAxNC0zMi0zMSAxNS00OS0xOCAwLTEtMi41LTUuNXQtNC04LjUtMi41LTguNSAwLTcuNSA1LTNxOSAwIDEwLTMuNXQtMi0xMi41LTQtMTNxLTEtOC0xMS0yMHQtMTItMTVxLTUgOS0xNiA4dC0xNi05cTAgMS0xLjUgNS41dC0xLjUgNi41cS0xMyAwLTE1LTEgMS0zIDIuNS0xNy41dDMuNS0yMi41cTEtNCA1LjUtMTJ0Ny41LTE0LjUgNC0xMi41LTQuNS05LjUtMTcuNS0yLjVxLTE5IDEtMjYgMjAtMSAzLTMgMTAuNXQtNSAxMS41LTkgN3EtNyAzLTI0IDJ0LTI0LTVxLTEzLTgtMjIuNS0yOXQtOS41LTM3cTAtMTAgMi41LTI2LjV0My0yNS01LjUtMjQuNXEzLTIgOS05LjV0MTAtMTAuNXEyLTEgNC41LTEuNXQ0LjUgMCA0LTEuNSAzLTZxLTEtMS00LTMtMy0zLTQtMyA3IDMgMjguNS0xLjV0MjcuNSAxLjVxMTUgMTEgMjItMiAwLTEtMi41LTkuNXQtLjUtMTMuNXE1IDI3IDI5IDkgMyAzIDE1LjUgNXQxNy41IDVxMyAyIDcgNS41dDUuNSA0LjUgNS0uNSA4LjUtNi41cTEwIDE0IDEyIDI0IDExIDQwIDE5IDQ0IDcgMyAxMSAydDQuNS05LjUgMC0xNC0xLjUtMTIuNWwtMS04di0xOGwtMS04cS0xNS0zLTE4LjUtMTJ0MS41LTE4LjUgMTUtMTguNXExLTEgOC0zLjV0MTUuNS02LjUgMTIuNS04cTIxLTE5IDE1LTM1IDcgMCAxMS05LTEgMC01LTN0LTcuNS01LTQuNS0ycTktNSAyLTE2IDUtMyA3LjUtMTF0Ny41LTEwcTkgMTIgMjEgMiA3LTggMS0xNiA1LTcgMjAuNS0xMC41dDE4LjUtOS41cTcgMiA4LTJ0MS0xMiAzLTEycTQtNSAxNS05dDEzLTVsMTctMTFxMy00IDAtNCAxOCAyIDMxLTExIDEwLTExLTYtMjAgMy02LTMtOS41dC0xNS01LjVxMy0xIDExLjUtLjV0MTAuNS0xLjVxMTUtMTAtNy0xNi0xNy01LTQzIDEyem0tMTYzIDg3N3EyMDYtMzYgMzUxLTE4OS0zLTMtMTIuNS00LjV0LTEyLjUtMy41cS0xOC03LTI0LTggMS03LTIuNS0xM3QtOC05LTEyLjUtOC0xMS03cS0yLTItNy02dC03LTUuNS03LjUtNC41LTguNS0yLTEwIDFsLTMgMXEtMyAxLTUuNSAyLjV0LTUuNSAzLTQgMyAwIDIuNXEtMjEtMTctMzYtMjItNS0xLTExLTUuNXQtMTAuNS03LTEwLTEuNS0xMS41IDdxLTUgNS02IDE1dC0yIDEzcS03LTUgMC0xNy41dDItMTguNXEtMy02LTEwLjUtNC41dC0xMiA0LjUtMTEuNSA4LjUtOSA2LjUtOC41IDUuNS04LjUgNy41cS0zIDQtNiAxMnQtNSAxMXEtMi00LTExLjUtNi41dC05LjUtNS41cTIgMTAgNCAzNXQ1IDM4cTcgMzEtMTIgNDgtMjcgMjUtMjkgNDAtNCAyMiAxMiAyNiAwIDctOCAyMC41dC03IDIxLjVxMCA2IDIgMTZ6Ii8+PC9zdmc+Cg==" alt="Website" /> <a href="https://unindented.org/">unindented.org</a></li>
-<li><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTc5MiIgaGVpZ2h0PSIxNzkyIiB2aWV3Qm94PSIwIDAgMTc5MiAxNzkyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik03MDQgMTIxNnEwIDQwLTEyLjUgODJ0LTQzIDc2LTcyLjUgMzQtNzIuNS0zNC00My03Ni0xMi41LTgyIDEyLjUtODIgNDMtNzYgNzIuNS0zNCA3Mi41IDM0IDQzIDc2IDEyLjUgODJ6bTY0MCAwcTAgNDAtMTIuNSA4MnQtNDMgNzYtNzIuNSAzNC03Mi41LTM0LTQzLTc2LTEyLjUtODIgMTIuNS04MiA0My03NiA3Mi41LTM0IDcyLjUgMzQgNDMgNzYgMTIuNSA4MnptMTYwIDBxMC0xMjAtNjktMjA0dC0xODctODRxLTQxIDAtMTk1IDIxLTcxIDExLTE1NyAxMXQtMTU3LTExcS0xNTItMjEtMTk1LTIxLTExOCAwLTE4NyA4NHQtNjkgMjA0cTAgODggMzIgMTUzLjV0ODEgMTAzIDEyMiA2MCAxNDAgMjkuNSAxNDkgN2gxNjhxODIgMCAxNDktN3QxNDAtMjkuNSAxMjItNjAgODEtMTAzIDMyLTE1My41em0yMjQtMTc2cTAgMjA3LTYxIDMzMS0zOCA3Ny0xMDUuNSAxMzN0LTE0MSA4Ni0xNzAgNDcuNS0xNzEuNSAyMi0xNjcgNC41cS03OCAwLTE0Mi0zdC0xNDcuNS0xMi41LTE1Mi41LTMwLTEzNy01MS41LTEyMS04MS04Ni0xMTVxLTYyLTEyMy02Mi0zMzEgMC0yMzcgMTM2LTM5Ni0yNy04Mi0yNy0xNzAgMC0xMTYgNTEtMjE4IDEwOCAwIDE5MCAzOS41dDE4OSAxMjMuNXExNDctMzUgMzA5LTM1IDE0OCAwIDI4MCAzMiAxMDUtODIgMTg3LTEyMXQxODktMzlxNTEgMTAyIDUxIDIxOCAwIDg3LTI3IDE2OCAxMzYgMTYwIDEzNiAzOTh6Ii8+PC9zdmc+Cg==" alt="GitHub" /> <a href="https://github.com/unindented">@unindented</a></li>
-<li><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTc5MiIgaGVpZ2h0PSIxNzkyIiB2aWV3Qm94PSIwIDAgMTc5MiAxNzkyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0xNjg0IDQwOHEtNjcgOTgtMTYyIDE2NyAxIDE0IDEgNDIgMCAxMzAtMzggMjU5LjV0LTExNS41IDI0OC41LTE4NC41IDIxMC41LTI1OCAxNDYtMzIzIDU0LjVxLTI3MSAwLTQ5Ni0xNDUgMzUgNCA3OCA0IDIyNSAwIDQwMS0xMzgtMTA1LTItMTg4LTY0LjV0LTExNC0xNTkuNXEzMyA1IDYxIDUgNDMgMCA4NS0xMS0xMTItMjMtMTg1LjUtMTExLjV0LTczLjUtMjA1LjV2LTRxNjggMzggMTQ2IDQxLTY2LTQ0LTEwNS0xMTV0LTM5LTE1NHEwLTg4IDQ0LTE2MyAxMjEgMTQ5IDI5NC41IDIzOC41dDM3MS41IDk5LjVxLTgtMzgtOC03NCAwLTEzNCA5NC41LTIyOC41dDIyOC41LTk0LjVxMTQwIDAgMjM2IDEwMiAxMDktMjEgMjA1LTc4LTM3IDExNS0xNDIgMTc4IDkzLTEwIDE4Ni01MHoiLz48L3N2Zz4K" alt="Twitter" /> <a href="https://twitter.com/unindented">@unindented</a></li>
+<li><img role="img" aria-label="Phone" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTc5MiIgaGVpZ2h0PSIxNzkyIiB2aWV3Qm94PSIwIDAgMTc5MiAxNzkyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0xNjAwIDEyNDBxMCAyNy0xMCA3MC41dC0yMSA2OC41cS0yMSA1MC0xMjIgMTA2LTk0IDUxLTE4NiA1MS0yNyAwLTUyLjUtMy41dC01Ny41LTEyLjUtNDcuNS0xNC41LTU1LjUtMjAuNS00OS0xOHEtOTgtMzUtMTc1LTgzLTEyOC03OS0yNjQuNS0yMTUuNXQtMjE1LjUtMjY0LjVxLTQ4LTc3LTgzLTE3NS0zLTktMTgtNDl0LTIwLjUtNTUuNS0xNC41LTQ3LjUtMTIuNS01Ny41LTMuNS01Mi41cTAtOTIgNTEtMTg2IDU2LTEwMSAxMDYtMTIyIDI1LTExIDY4LjUtMjF0NzAuNS0xMHExNCAwIDIxIDMgMTggNiA1MyA3NiAxMSAxOSAzMCA1NHQzNSA2My41IDMxIDUzLjVxMyA0IDE3LjUgMjV0MjEuNSAzNS41IDcgMjguNXEwIDIwLTI4LjUgNTB0LTYyIDU1LTYyIDUzLTI4LjUgNDZxMCA5IDUgMjIuNXQ4LjUgMjAuNSAxNCAyNCAxMS41IDE5cTc2IDEzNyAxNzQgMjM1dDIzNSAxNzRxMiAxIDE5IDExLjV0MjQgMTQgMjAuNSA4LjUgMjIuNSA1cTE4IDAgNDYtMjguNXQ1My02MiA1NS02MiA1MC0yOC41cTE0IDAgMjguNSA3dDM1LjUgMjEuNSAyNSAxNy41cTI1IDE1IDUzLjUgMzF0NjMuNSAzNSA1NCAzMHE3MCAzNSA3NiA1MyAzIDcgMyAyMXoiLz48L3N2Zz4K" alt="Phone" /> <a href="tel:+12066986781">(+1) 206 698 6781</a></li>
+<li><img role="img" aria-label="Email" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTc5MiIgaGVpZ2h0PSIxNzkyIiB2aWV3Qm94PSIwIDAgMTc5MiAxNzkyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0xNjY0IDE1MDR2LTc2OHEtMzIgMzYtNjkgNjYtMjY4IDIwNi00MjYgMzM4LTUxIDQzLTgzIDY3dC04Ni41IDQ4LjUtMTAyLjUgMjQuNWgtMnEtNDggMC0xMDIuNS0yNC41dC04Ni41LTQ4LjUtODMtNjdxLTE1OC0xMzItNDI2LTMzOC0zNy0zMC02OS02NnY3NjhxMCAxMyA5LjUgMjIuNXQyMi41IDkuNWgxNDcycTEzIDAgMjIuNS05LjV0OS41LTIyLjV6bTAtMTA1MXYtMjQuNWwtLjUtMTMtMy0xMi41LTUuNS05LTktNy41LTE0LTIuNWgtMTQ3MnEtMTMgMC0yMi41IDkuNXQtOS41IDIyLjVxMCAxNjggMTQ3IDI4NCAxOTMgMTUyIDQwMSAzMTcgNiA1IDM1IDI5LjV0NDYgMzcuNSA0NC41IDMxLjUgNTAuNSAyNy41IDQzIDloMnEyMCAwIDQzLTl0NTAuNS0yNy41IDQ0LjUtMzEuNSA0Ni0zNy41IDM1LTI5LjVxMjA4LTE2NSA0MDEtMzE3IDU0LTQzIDEwMC41LTExNS41dDQ2LjUtMTMxLjV6bTEyOC0zN3YxMDg4cTAgNjYtNDcgMTEzdC0xMTMgNDdoLTE0NzJxLTY2IDAtMTEzLTQ3dC00Ny0xMTN2LTEwODhxMC02NiA0Ny0xMTN0MTEzLTQ3aDE0NzJxNjYgMCAxMTMgNDd0NDcgMTEzeiIvPjwvc3ZnPgo=" alt="Email" /> <a href="mailto:unindented@gmail.com">unindented@gmail.com</a> <!--
+- ![Website](images/website.svg) [unindented.org](https://unindented.org/)
+- ![GitHub](images/github.svg) [\@unindented](https://github.com/unindented)
+- ![Twitter](images/twitter.svg) [\@unindented](https://twitter.com/unindented)
+--></li>
 </ul>
 </blockquote>
 <hr />
 <h2 id="experience">Experience</h2>
 <dl>
-<dt>Apr 2021 – Present</dt>
+<dt>Jan 2023 – Present</dt>
+<dd>
+<p><strong>Senior Software Engineer II</strong> at <em><a href="https://www.snowflake.com/">Snowflake</a></em>
+<em>(Bellevue, WA)</em></p>
+<p>I’ve worked on integrating <a href="https://www.snowflake.com/en/data-cloud/streamlit-in-snowflake/">Streamlit
+into Snowflake</a>, and on building <a href="https://www.snowflake.com/en/data-cloud/notebooks/">Snowflake
+Notebooks</a>, using <em>TypeScript</em>, <em>React</em>, and
+<em>Redux</em>.</p>
+<ul>
+<li>Improved Streamlit’s viewing and sharing flows by simplifying the
+access control model, which increased daily usage of the product.</li>
+<li>Added LLM-powered features to Worksheets’ and Notebooks’ editing
+surfaces, focused on helping users understand and optimize SQL
+queries.</li>
+<li>Contributed to the wider Product Engineering organization, improving
+the modularity and testability of the codebase.</li>
+</ul>
+</dd>
+<dt>Apr 2021 – Jan 2023</dt>
 <dd>
 <p><strong>Staff Software Engineer</strong> at <em><a href="https://www.twitter.com/">Twitter</a></em>
 <em>(Seattle, WA)</em></p>
 <p>I led the web implementation of <a href="https://blog.twitter.com/en_us/topics/product/2021/introducing-super-follows">Super
-Follows</a>, a paid monthly subscription that offers access to exclusive
-content from eligible creators.</p>
+Follows</a> from ideation to public preview, using <em>Flow</em>,
+<em>React</em>, <em>Relay</em>, and <em>GraphQL</em></p>
 <ul>
-<li>Developed the application, onboarding, and management flows that
-allowed users to become Super Follows creators, and manage their
-offerings, using <em>Flow</em>, <em>React</em>, <em>Relay</em>, and
-<em>GraphQL</em>.</li>
-<li>Developed the subscription payment flow, backed by
+<li>Developed from scratch the application, onboarding, and management
+flows that allowed users to become Super Follows creators, and manage
+their offerings.</li>
+<li>Developed from scratch the subscription payment flow, backed by
 <em>Stripe</em>.</li>
 <li>Onboarded and mentored three other web engineers on the team.</li>
 <li>Contributed to the wider Twitter web community by educating other
-engineers on <em>Relay</em>, leading postmortems, improving and
-rewriting unit tests using <em>React Testing Library</em>, and helping
-with accessibility audits, among other things.</li>
+engineers on <em>Relay</em>, improving and rewriting unit tests, and
+helping with accessibility audits.</li>
 </ul>
 </dd>
 <dt>Dec 2018 – Apr 2021</dt>
@@ -430,12 +446,8 @@ technical debt.</li>
 <em>Webpack</em>, reducing maintenance costs, and allowing for the
 introduction of productivity-enhancing tools like
 <em>TypeScript</em>.</li>
-<li>Prototyped a desktop client that wrapped the original web client,
-using <em>Electron</em>.</li>
 <li>Prototyped an alternative web client, using <em>React</em> and
-<em>Redux</em>.</li>
-<li>Prototyped alternative iOS and Android clients that shared 90% of
-their code, using <em>React Native</em>.</li>
+<em>Redux</em>, and a desktop client, using <em>Electron</em>.</li>
 <li>Gave internal talks on various topics, including <em>React</em>,
 <em>Redux</em> and <em>Webpack</em>.</li>
 </ul>
@@ -444,9 +456,8 @@ their code, using <em>React Native</em>.</li>
 <dd>
 <p><strong>Software Development Engineer II</strong> at <em><a href="https://www.yammer.com/">Yammer</a></em> <em>(London, UK)</em></p>
 <p>Yammer is an enterprise social network. As an early hire for their
-London offices, I worked on the development of Yammer’s main web client,
-a single-page app built on top of a <em>Ruby on Rails</em>
-application.</p>
+London offices, I worked on the development of Yammer’s main web
+client.</p>
 <ul>
 <li>Led the development of key features, collaborating with product
 managers, designers, front-end and back-end engineers, and data
@@ -456,34 +467,30 @@ other metrics, making heavy use of feature flags and A/B testing.</li>
 <li>Started the migration from an undocumented and untested internal MVC
 framework to <em>Backbone</em>, speeding up development, and making
 onboarding of new hires much easier.</li>
-<li>Improved the quality and consistency of the front-end codebase
-through linting (<em>JSHint</em>) and unit testing
-(<em>Jasmine</em>).</li>
+<li>Improved the quality and consistency of the front-end codebase.</li>
 </ul>
 </dd>
 <dt>Dec 2011 – Jun 2012</dt>
 <dd>
-<p><strong>Software Developer (Freelance)</strong> at <em><a href="http://www.avallain.com/">Avallain</a></em>
-<em>(Madrid, Spain)</em></p>
-<p>Avallain is a Swiss company that focuses on education technology and
-digital publishing. I worked remotely with their engineering team on the
-creation of an ambitious online learning platform.</p>
+<strong>Software Developer (Freelance)</strong> at <em><a href="http://www.avallain.com/">Avallain</a></em>
+<em>(Madrid, Spain)</em>
 </dd>
 </dl>
-<!-- 
+<!--
+    Avallain is a Swiss company that focuses on education technology and digital publishing. I worked remotely with their engineering team on the creation of an ambitious online learning platform.
+
     * Kickstarted the back-end, based on *RefineryCMS* / *Ruby on Rails*, and reliant on Amazon Web Services like *S3*, *SES*, *SQS* and *SimpleDB*.
     * Developed the front-end from start to finish, making heavy use of *Backbone* and *Bootstrap*, following a test-driven workflow.
 -->
 <dl>
 <dt>Mar 2011 – Dec 2011</dt>
 <dd>
-<p><strong>Software Developer (Freelance)</strong> at <em><a href="http://www.emc.com/">EMC</a></em> <em>(Madrid, Spain)</em></p>
-<p>EMC is a multinational corporation that provides data storage,
-information security, virtualization, analytics and cloud computing
-solutions. I worked with their engineering team on various projects.</p>
+<strong>Software Developer (Freelance)</strong> at <em><a href="http://www.emc.com/">EMC</a></em> <em>(Madrid, Spain)</em>
 </dd>
 </dl>
-<!-- 
+<!--
+    EMC is a multinational corporation that provides data storage, information security, virtualization, analytics and cloud computing solutions. I worked with their engineering team on various projects.
+
     * Reduced bulk-load and access times of hundreds of millions of invoices stored in *Documentum* by ~50%, mainly through better XML parsing, and database sharding.
     * Improved user experience in multiple web apps through intelligent use of JavaScript.
     * Automated server management tasks, freeing engineers to work on other issues.
@@ -492,12 +499,12 @@ solutions. I worked with their engineering team on various projects.</p>
 <dl>
 <dt>Mar 2008 – Mar 2011</dt>
 <dd>
-<p><strong>Analyst Programmer</strong> at <em><a href="http://www.atos.net/">Atos</a></em> <em>(Madrid, Spain)</em></p>
-<p>Atos is a European IT services corporation. I was part of their
-consulting team, working on document management solutions.</p>
+<strong>Analyst Programmer</strong> at <em><a href="http://www.atos.net/">Atos</a></em> <em>(Madrid, Spain)</em>
 </dd>
 </dl>
-<!-- 
+<!--
+    Atos is a European IT services corporation. I was part of their consulting team, working on document management solutions.
+
     * Managed a team of three developers to build an electronic registry for use in Spanish government agencies. We pioneered the use of open-source solution *Alfresco* in the department.
     * Performed all kinds of customizations and improvements on both the front-end and the back-end of *Documentum Webtop* and *Documentum Compliance Manager* installations.
     * Introduced the team to source control, build tools, static analysis tools and unit testing.
@@ -505,13 +512,12 @@ consulting team, working on document management solutions.</p>
 <dl>
 <dt>Sep 2006 – Mar 2008</dt>
 <dd>
-<p><strong>Analyst Programmer</strong> at <em><a href="http://www.csc.com/">CSC</a></em> <em>(Madrid, Spain)</em></p>
-<p>CSC is a multinational corporation that provides IT services and
-professional services. I was part of their consulting team, working on
-document management solutions.</p>
+<strong>Analyst Programmer</strong> at <em><a href="http://www.csc.com/">CSC</a></em> <em>(Madrid, Spain)</em>
 </dd>
 </dl>
-<!-- 
+<!--
+    CSC is a multinational corporation that provides IT services and professional services. I was part of their consulting team, working on document management solutions.
+
     * Collaborated directly with the customer to create several intranet portals using *Documentum Web Publisher*. Made user experience and accessibility top priorities.
     * Aided in the maintenance and improvement of a large *Documentum Webtop* installation.
     * Introduced the team to source control, build tools, static analysis tools and unit testing.
@@ -520,11 +526,12 @@ document management solutions.</p>
 <dl>
 <dt>Sep 2001 – Sep 2006</dt>
 <dd>
-<p><strong>M.Sc. in Computer Science</strong> at <em><a href="http://www.comillas.edu/">U. Pontificia de Comillas</a></em>
-<em>(Madrid, Spain)</em></p>
-<p>My final year project applied neuro-evolution of augmenting
-topologies to videogames (more specifically to Half-Life 2).</p>
+<strong>M.Sc. in Computer Science</strong> at <em><a href="http://www.comillas.edu/">U. Pontificia de Comillas</a></em>
+<em>(Madrid, Spain)</em>
 </dd>
 </dl>
+<!--
+    My final year project applied neuro-evolution of augmenting topologies to videogames (more specifically to Half-Life 2).
+-->
 </body>
 </html>
